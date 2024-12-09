@@ -5,7 +5,7 @@ import {useState} from "react";
 const About = () => {
     const hour = new Date().getHours(); //Obtenemos la hora en la que el user entra al portafolio
     const DayStart = 6;
-    const DayEnd = 18;
+    const DayEnd = 19;
     const isDay = hour >= DayStart && hour <= DayEnd;
 
     const [hasCopiedEmail, setHasCopiedEmail] = useState(false)
@@ -64,7 +64,7 @@ const About = () => {
                                     globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
                                     bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                                     labelsData={[{
-                                        lat: 40, lng: -100, text: "I'm here currently!", color: "white", size: 100,
+                                        lat: 20.5, lng: -89, text: "I'm here currently!", color: "white", size: 100,
                                     }]}
                                 />
                             ) : (
