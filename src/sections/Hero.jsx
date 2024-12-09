@@ -13,6 +13,7 @@ import ReactLogo from "../components/ReactLogo.jsx";
 import Cplusplus from "../components/Cplusplus.jsx";
 import Unreal_Logo from "../components/Unreal_Logo.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
+import Buttom from "../components/Buttom.jsx";
 
 const Hero = () => {
     /*
@@ -97,6 +98,11 @@ const Hero = () => {
                         <directionalLight position={[10,10,10]} intensity={1}/>
                     </Suspense>
                 </Canvas>
+            </div>
+            <div className={"absolute bottom-7 left-0 right-0 w-full z-10 c-space"}>
+                <a href="#contact" className="w-fit">
+                    <Buttom name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
+                </a>
             </div>
         </section>
     )
