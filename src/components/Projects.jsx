@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Projects = () => {
     return (
@@ -6,3 +5,6 @@ const Projects = () => {
     )
 }
 export default Projects
+
+
+//HAVENT HAD TIME TO WORK, APPLYING AT AMAZON RN, SORRY.
