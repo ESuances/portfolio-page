@@ -58,10 +58,10 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'SASYC - Concourse and contracts CFE system',
+        desc: 'SASYC is a the system that is used currently in CFE UEN Peninsular, a system that helped the stakeholders and the entire department to be as efficient as possible in at that time the biggest project in AMLO presidential term, which was the Tren Maya',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+            'Built as a unique Software-as-a-Service app with Next.js 14, React, Tailwind CSS, TypeScript for the front end and for the backend I used Laravel 8.0, PHP 7.2 and MySQL, SASYC is designed for optimal performance and scalability.',
         href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
